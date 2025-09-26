@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -18,12 +19,16 @@ const Hero = () => {
           sales, manage inventory, and gain insights to grow your business.
         </p>
         <div className="mt-8 flex justify-center gap-4">
-          <button className="bg-[#13a4ec] text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-[#13a4ec]/90 transition-colors">
-            Get Started
-          </button>
-          <button className="bg-white/20 dark:bg-white/10 backdrop-blur-sm text-white font-bold py-3 px-6 rounded-lg hover:bg-white/30 dark:hover:bg-white/20 transition-colors">
-            Login
-          </button>
+          <Link href={"/auth/signup"}>
+            <button className="bg-[#13a4ec] text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-[#13a4ec]/90 transition-colors">
+              Get Started
+            </button>
+          </Link>
+          <Link href={"/auth/login"}>
+            <button className="bg-white/20 dark:bg-white/10 backdrop-blur-sm text-white font-bold py-3 px-6 rounded-lg hover:bg-white/30 dark:hover:bg-white/20 transition-colors">
+              Login
+            </button>
+          </Link>
         </div>
       </div>
     </section>

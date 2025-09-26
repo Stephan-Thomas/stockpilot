@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { FaFacebook } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -15,9 +16,11 @@ const Footer = () => {
             Ready to take your shop to the next level?
           </h2>
           <div className="mt-8 flex justify-center">
-            <button className="bg-[#13a4ec] text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-[#13a4ec]/90 transition-colors">
-              Get Started Now
-            </button>
+            <Link href={"/auth/signup"}>
+              <button className="bg-[#13a4ec] text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-[#13a4ec]/90 transition-colors">
+                Get Started Now
+              </button>
+            </Link>
           </div>
         </div>
         <div className="mt-12 border-t border-slate-200 dark:border-slate-700 pt-8 flex flex-col md:flex-row items-center justify-between">
