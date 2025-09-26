@@ -15,8 +15,8 @@ const UserSidebar = () => {
     { href: "/user", label: "Home", icon: <FiHome size={30} /> },
     { href: "/user/inventory", label: "Inventory", icon: <GrCube size={30} /> },
     {
-      href: "/user/order",
-      label: "Order",
+      href: "/user/sales",
+      label: "Sales",
       icon: <LiaClipboardListSolid size={30} />,
     },
     {
