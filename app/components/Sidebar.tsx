@@ -13,7 +13,11 @@ const Sidebar = () => {
       {(pathName === "/auth/login" || pathName === "/auth/signup") && (
         <LoginSidebar />
       )}
-      {pathName === "/user" && <UserSidebar />}
+      {(pathName === "/user" ||
+        pathName === "/user/inventory" ||
+        pathName === "/user/order" ||
+        pathName === "/user/report" ||
+        pathName === "/user/settings") && <UserSidebar />}
     </>
   );
 };
