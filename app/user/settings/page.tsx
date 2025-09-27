@@ -52,7 +52,7 @@ const page = () => {
                       Business Name
                     </label>
                     <input
-                      className="mt-2 w-full rounded-lg border-slate-300 bg-background-light px-4 py-2 text-slate-700 focus:border-[#13a4ec] focus:ring-[#13a4ec]/50 dark:border-slate-700 dark:bg-slate-900/50 dark:text-slate-300 dark:placeholder-slate-500"
+                      className="mt-2 w-full rounded-lg border-slate-300 bg-[#f6f7f8] px-4 py-2 text-slate-700 focus:border-[#13a4ec] focus:ring-[#13a4ec]/50 dark:border-slate-700 dark:bg-slate-900/50 dark:text-slate-300 dark:placeholder-slate-500"
                       id="business-name"
                       placeholder="Enter business name"
                       type="text"
@@ -64,7 +64,7 @@ const page = () => {
                       Email Address
                     </label>
                     <input
-                      className="mt-2 w-full rounded-lg border-slate-300 bg-background-light px-4 py-2 text-slate-700 focus:border-[#13a4ec] focus:ring-[#13a4ec]/50 dark:border-slate-700 dark:bg-slate-900/50 dark:text-slate-300 dark:placeholder-slate-500"
+                      className="mt-2 w-full rounded-lg border-slate-300 bg-[#f6f7f8] px-4 py-2 text-slate-700 focus:border-[#13a4ec] focus:ring-[#13a4ec]/50 dark:border-slate-700 dark:bg-slate-900/50 dark:text-slate-300 dark:placeholder-slate-500"
                       id="business-email"
                       placeholder="Enter email address"
                       type="email"
@@ -76,7 +76,7 @@ const page = () => {
                       Phone Number
                     </label>
                     <input
-                      className="mt-2 w-full rounded-lg border-slate-300 bg-background-light px-4 py-2 text-slate-700 focus:border-[#13a4ec] focus:ring-[#13a4ec]/50 dark:border-slate-700 dark:bg-slate-900/50 dark:text-slate-300 dark:placeholder-slate-500"
+                      className="mt-2 w-full rounded-lg border-slate-300 bg-[#f6f7f8] px-4 py-2 text-slate-700 focus:border-[#13a4ec] focus:ring-[#13a4ec]/50 dark:border-slate-700 dark:bg-slate-900/50 dark:text-slate-300 dark:placeholder-slate-500"
                       id="business-phone"
                       placeholder="Enter phone number"
                       type="tel"
@@ -99,7 +99,7 @@ const page = () => {
                 Manage your subscription and payment details.
               </p>
               <div className="mt-6">
-                <div className="rounded-lg border border-slate-200 bg-background-light p-4 dark:border-slate-700 dark:bg-slate-900/50">
+                <div className="rounded-lg border border-slate-200 bg-[#f6f7f8] p-4 dark:border-slate-700 dark:bg-slate-900/50">
                   <div className="flex flex-col items-start justify-between sm:flex-row sm:items-center">
                     <div>
                       <p className="text-base font-semibold text-slate-800 dark:text-white">
@@ -123,7 +123,7 @@ const page = () => {
                 <h3 className="text-lg font-semibold text-slate-800 dark:text-white">
                   Payment Method
                 </h3>
-                <div className="mt-4 rounded-lg border border-slate-200 bg-background-light p-4 dark:border-slate-700 dark:bg-slate-900/50">
+                <div className="mt-4 rounded-lg border border-slate-200 bg-[#f6f7f8] p-4 dark:border-slate-700 dark:bg-slate-900/50">
                   <div className="flex flex-col items-start justify-between sm:flex-row sm:items-center">
                     <div className="flex items-center gap-4">
                       <img
