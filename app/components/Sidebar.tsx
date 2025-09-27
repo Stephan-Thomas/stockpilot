@@ -10,9 +10,9 @@ const Sidebar = () => {
   return (
     <>
       {pathName === "/" && <HomeSidebar />}
-      {(pathName === "/auth/login" || pathName === "/auth/signup") && (
-        <LoginSidebar />
-      )}
+      {(pathName === "/auth/login" ||
+        pathName === "/auth/signup" ||
+        pathName === "/auth/payment") && <LoginSidebar />}
       {(pathName === "/user" ||
         pathName === "/user/inventory" ||
         pathName === "/user/sales" ||
